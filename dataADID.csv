@@ -1,0 +1,4 @@
+Date coded,Coder,Recording,Chunk,Block,Part,Length (ms),cds_ads,confidence_level,Original Label,Duration,Comments
+12:59:11 01Nov2019,test,3542,chunk1,FA2,3120000-3121630,1.63,ads,3,A,6,None
+12:58:35 01Nov2019,test,3542,chunk1,FA1,3120003-3120390,0.387,cds,3,A,4,None
+12:58:41 01Nov2019,test,3542,chunk1,FA1,3121450-3121820,0.37,ads,1,A,2,None
