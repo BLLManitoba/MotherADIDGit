@@ -1,8 +1,8 @@
 
 # MotherADIDLabeler
-is a simple program that allows percentage-based labelling of conversational blocks. Essentially, it is a modified version of [IDSLabel](https://github.com/babylanguagelab/bll_app/tree/master/src/app/IDSLabel/client) to label conversations instead of speech segments, combined with another modified version of convolabel called alexislabel(insert link to github of that app)
+is a simple program that allows percentage-based labelling of conversational blocks. Essentially, it is a modified version of [IDSLabel](https://github.com/babylanguagelab/bll_app/tree/master/src/app/IDSLabel/client) to label conversations instead of speech segments, combined with another modified version of convolabel called alexislabel.
 
-![convolabel screenshot](https://github.com/babylanguagelab/bll_app/blob/master/src/app/convolabel/screenshot.PNG?raw=true "Example")
+![convolabel screenshot](https://github.com/BLLManitoba/MotherADIDGit/blob/master/MADIDL_Screenshot.PNG "Example")
 
 ## Installation (for Windows):
 
