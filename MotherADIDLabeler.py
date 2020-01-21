@@ -42,7 +42,7 @@ import logging
 import utils
 import makeblocks
 
-FOLDERS = ['./input', './labelled_data', './output']
+FOLDERS = ['./input', './labelled_data', './output_inclusion']
 for FOLDER in FOLDERS:
     if not os.path.isdir(FOLDER):
         os.mkdir(FOLDER)
@@ -82,7 +82,7 @@ class Convolabel(object):
         self.is_playing = False
         self.play_thread = None
         program_path = os.getcwd()
-        self.chunks_path = os.path.join(program_path, 'output_eafs2')
+        self.chunks_path = os.path.join(program_path, 'output_inclusion')
         self.data = Database(program_path)
         self._data_is_saved = True
         self.current_rec = None
@@ -567,7 +567,7 @@ class Convolabel(object):
         self.parts_list.delete(0, tk.END)
         self.blocks_list.delete(0, tk.END)
         # Recs are the recordings (e.g C208_20150101). Every folder in the data path is considered a rec
-        to_input_data = os.path.join(os.getcwd(), 'output_eafs2')
+        to_input_data = os.path.join(os.getcwd(), 'output_inclusion')
         files = os.listdir(os.path.join(to_input_data, to_input_data))
         # names = [file for file in files if file.endswith('.wav')]
         names = files
